@@ -1,0 +1,43 @@
+
+.light-grey {
+    background-color: rgb(245, 245, 245);
+}
+
+.navbar-brand {
+    padding-left: 160px;
+}
+
+.card {
+    box-shadow: 0 6px 10px 
+        rgba(0,0,0,.08), 
+        0 0 6px 
+        rgba(0,0,0,.05);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px 
+        rgba(0,0,0,.12), 
+        0 4px 8px 
+        rgba(0,0,0,.06);
+}
+
+.pagination {
+    justify-content: center;
+ }
+
+ .active a{
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .card:hover {
+        transform: none;
+    }
+
+    .navbar-brand {
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
